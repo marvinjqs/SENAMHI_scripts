@@ -85,7 +85,8 @@ df_list <- list()
 for (i in 1:length(myfiles)){
   
   df_list[[i]] <- read.table(myfiles[i], sep = ",", header = T ,
-                           skip = 10 , stringsAsFactors = F)
+                             skip = 10 , stringsAsFactors = F, 
+                             na.strings = "S/D")
 }
 
 # CONCATENAR LOS DATAFRAMES DE LA LISTA
