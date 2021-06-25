@@ -1,2 +1,2 @@
 # SENAMHI_scripts
-Manejo de datos hidrometeorológicos del SENAMHI
+Procesamiento y análisis de datos hidrometeorológicos del SENAMH
