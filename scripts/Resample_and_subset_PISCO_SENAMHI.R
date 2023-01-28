@@ -52,7 +52,7 @@ seq_months_idx <- unique(format(seq_dates, "%Y_%m"))
 
 time_initial <- Sys.time()
 
-for (i in 1:length(seq_months[1:3])) {
+for (i in 1:length(seq_months)) {
   
   date1 <- paste(seq_months[i],"-01",sep = "")
   date2 <- seq.Date(from = as.Date(paste(seq_months[i],"-01",sep = "")), by = "1 month", length.out = 2)[2]
